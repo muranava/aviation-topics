@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Aviation Topics | ICS 199 Syllabus </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="/aviation-topics/css/themes/spacelab/bootstrap.min.css">
+  <link rel="stylesheet" href="/aviation-topics/css/style.css">
+  <link rel="stylesheet" href="/aviation-topics/css/syntax.css">
+  <link rel="shortcut icon" href="/aviation-topics/favicon.ico" type="image/x-icon" />
+
+  
+
+  <!-- Load JQuery, then use it to attach the class 'active' to navbar item currently displayed. -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    $(window).on('load', function () {
+      $('.nav-item').find('a[href="' + location.pathname + '"]').addClass('active');
+    });
+  </script>
+
+</head>
+<body>
+
+<div class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="/aviation-topics/index.html"> Aviation Topics </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav">
+        
+        <li class="nav-item"><a class="nav-link" href="/aviation-topics/prerequisites/">Prerequisites</a></li>
+        
+        <li class="nav-item"><a class="nav-link" href="/aviation-topics/modules/">Modules</a></li>
+        
+        <li class="nav-item"><a class="nav-link" href="/aviation-topics/outcomes/">Outcomes</a></li>
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/aviation-topics/readings/">Readings</a></li>
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/aviation-topics/experiences/">Experiences</a></li>
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/aviation-topics/assessments/">Assessments</a></li>
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/aviation-topics/schedule/">Schedule</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Internal fragment for displaying the breadcrumb bar -->
+<div class="breadcrumb-background" style="padding-top: 1em; padding-bottom: .01em">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        
+        <li class="breadcrumb-item"><a href="/aviation-topics/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/aviation-topics/modules">Modules</a></li>
+        <li class="breadcrumb-item"><a href="/aviation-topics/modules/example-introduction">Introduction to ICS 199</a></li>
+        <li class="breadcrumb-item active">ICS 199 Syllabus</li>
+      </ol>
+    </nav>
+  </div>
+</div>
+
+
+<div class="container">
+  <h1 id="syllabus">Syllabus</h1>
+
+<p><em>Title</em>: ICS 199: Selected Topics in Computer Science
+<br /><em>Website</em>: http://courses.ics.hawaii.edu/ics199
+<br /><em>Prerequisites</em>: ICS 211, ICS 241, or equivalent</p>
+
+<h2 id="description">Description</h2>
+
+<p>(The remainder of this page is actually the syllabus for ICS 314.)</p>
+
+<p>ICS 314 is a fast-paced immersion into significant software engineering concepts and technologies.  It incorporates the following themes:</p>
+
+<ul>
+  <li>
+    <p><strong>Software engineering concepts.</strong> Classical concepts include requirements, design, implementation, testing, configuration management, development environments, quality assurance, deployment, and project management.</p>
+  </li>
+  <li>
+    <p><strong>Software engineering technologies</strong>.  You will explore with a variety of technologies including:  the <a href="http://www.jetbrains.com/idea/">IntelliJ Idea</a> integrated development environment, the <a href="http://git-scm.com/">git</a> configuration management system, the <a href="https://github.com/">GitHub</a> project hosting, the <a href="http://semantic-ui.com/">Semantic UI</a> user interface framework, and the <a href="https://www.meteor.com/">Meteor</a> web application framework.</p>
+  </li>
+  <li>
+    <p><strong>Intermediate programming concepts</strong>. ICS 314 uses <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>, which enables you to experience programming concepts including higher-order functions, closures, and functional programming idioms (map, reduce, filter).</p>
+  </li>
+  <li>
+    <p><strong>Design</strong>.  You will gain experience with a variety of design domains, including user interface design, application design, data design, security design, and requirements design.</p>
+  </li>
+  <li>
+    <p><strong>Quality Assurance</strong>.  The course presents quality assurance concepts from coding standards to testing to automated tools such as <a href="http://eslint.org/">ESLint</a> to software review.</p>
+  </li>
+  <li>
+    <p><strong>Professional development.</strong>  The course will help you establish and/or improve your “professional online persona”. This includes: (a) a professional portfolio web site like those at <a href="https://ics-portfolios.github.io/">ICS Portfolios</a>; (b) a set of publicly available software projects in which you have participated; (c) a set of well-written technical essays; and (d) participation in professional networking sites such as LinkedIn and TechHui.</p>
+  </li>
+  <li>
+    <p><strong>Technical writing</strong>.  The course will help you develop effective strategies for writing, to use and value writing as a tools for learning, and to learn to write in an appropriate manner for software engineering. You will do a substantial amount of writing for this course, well over 16 pages or 4,000 words, and you must adequately complete all writing assignments in order to pass the course with a grade of D or better. Feedback on assignments will occur through instructor comments, peer-review, and in-class writing activities. (<strong>W1, W2, W3, W4</strong>)</p>
+  </li>
+  <li>
+    <p><strong>Open source software engineering.</strong> You will learn some of the fundamental issues involved in successfully developing open source software, as well as the many professional benefits of developing open source software as a student.</p>
+  </li>
+  <li>
+    <p><strong>Athletic software engineering</strong>. ICS 314 implements an educational technique called <a href="http://philipmjohnson.org/essays/ase-2017.html">athletic software engineering</a>, which relies heavily on WODs (Workouts of the Day) to help you acquire mastery of the concepts in this course.</p>
+  </li>
+</ul>
+
+<p>The course grounds these thematic elements by covering the skills necessary to quickly build two-tier web applications with a modern look-and-feel.  Many computer science and computer engineering projects benefit from a web-based user interface, and this class will help you to create a nice one regardless of your “design” background.</p>
+
+<h2 id="outline">Outline</h2>
+
+<ul>
+  <li>Week 1: Introduction</li>
+  <li>Week 2: Javascript (Basics), Professional Persona, Technical Essay on Javascript (<strong>W1</strong>)</li>
+  <li>Week 3: Javascript (Object Orientation), Open Source Software, Technical Essay on OSS (<strong>W1</strong>)</li>
+  <li>Week 4: Javascript (Functional Programming), Configuration Management (git, GitHub)</li>
+  <li>Week 5: Development Environments (IntelliJ), Coding Standards (ESLint), Technical Essay on Coding Standards (<strong>W1</strong>)</li>
+  <li>Week 6: UI Design (HTML/CSS)</li>
+  <li>Week 7: UI Design (Semantic UI), Technical Essay on HTML Frameworks (<strong>W1</strong>)</li>
+  <li>Week 8: UI Design (React)</li>
+  <li>Week 9: Application Design (Meteor), Databases</li>
+  <li>Week 10: Application Design (Meteor)</li>
+  <li>Week 11: Application Design (Meteor), Technical Essay on Meteor (<strong>W1</strong>)</li>
+  <li>Week 12: Project Management</li>
+  <li>Week 13: Final Project, Deployment</li>
+  <li>Week 14: Final Project, Ethics in Software Engineering, Technical Essay on Ethics (<strong>W1</strong>)</li>
+  <li>Week 15: Final Project, Design Patterns, Technical Essay on Design Patters (<strong>W1</strong>)</li>
+  <li>Week 16: Final Project, Testing, Final Project Documentation Page (<strong>W1</strong>)</li>
+</ul>
+
+<h2 id="student-outcomes">Student Outcomes</h2>
+
+<h4 id="program-level-outcomes">Program level outcomes</h4>
+
+<ul>
+  <li>Analyze a complex computing problem and apply principles of computing and other relevant disciplines to identify solutions.</li>
+  <li>Design, implement, and evaluate a computing-based solution to meet a given set of computing requirements in the context of the program’s discipline.</li>
+  <li>Recognize professional responsibilities and make informed judgments in computing practice based on legal and ethical principles.</li>
+  <li>Function effectively as a member or leader of a team engaged in activities appropriate to the program’s discipline.</li>
+  <li>Apply computer science theory and software development fundamentals to produce computing-based solutions.</li>
+</ul>
+
+<h4 id="course-level-outcomes">Course level outcomes</h4>
+
+<ul>
+  <li>Create a high quality professional persona</li>
+  <li>Create high quality technical essays.</li>
+  <li>Competent with elementary Javascript</li>
+  <li>Use and develop open source software appropriately</li>
+  <li>Use configuration management tools and techniques effectively</li>
+  <li>Understand the software deployment process</li>
+  <li>Use an IDE (IntelliJ IDEA) effectively</li>
+  <li>Efficiently create software that conforms to standards</li>
+  <li>Design and implement effective test suites</li>
+  <li>Design and implement web pages using HTML and CSS</li>
+  <li>Design using a UI framework</li>
+  <li>Design using React</li>
+  <li>Design using Meteor Framework</li>
+  <li>Design using MongoDB</li>
+  <li>Understand the use of design patterns in software engineering</li>
+  <li>Practice simple project planning techniques</li>
+  <li>Write useful project documentation</li>
+</ul>
+
+<h4 id="writing-intensive-learning-objectives">Writing Intensive learning objectives</h4>
+
+<p>ICS 314 is designated Writing Intensive. As such, it includes the following learning objectives:</p>
+
+<ul>
+  <li>WL01. Adapt writing to a clearly identified purpose and audience, according to disciplinary conventions and genres;</li>
+  <li>WLO2. Develop and organize appropriate and relevant content;</li>
+  <li>WLO3. Evaluate and integrate supporting materials from appropriate sources, and credit them appropriately according to the genre and discourse requirements of the field; and</li>
+  <li>WLO4. Control style and mechanics to communicate effectively.</li>
+</ul>
+
+<h2 id="textbook">Textbook</h2>
+
+<p>There is no required textbook for this class. All material is found online.</p>
+
+<h2 id="grading">Grading</h2>
+
+<p>Your grade is based on:</p>
+
+<ul>
+  <li>homework assignments (approximately 40%),</li>
+  <li>in class tests (approximately 30%),</li>
+  <li>final project and exam (approximately 30%)</li>
+</ul>
+
+<p>These percentages may change during the semester. Because of the WI designation, writing assignments (including technical essays assigned as homework and project documentation assigned as part of the final project) will together constitute a minimum of 40% of the grade. You must adequately complete all writing assignments in order to pass the course with a grade of D or better. (<strong>W3</strong>)</p>
+
+<p>By default, grading will use the standard cutoffs of 90% (A), 80% (B), 70% (C), 60% (D), but the instructor may revise these percentages downward.</p>
+
+<h2 id="academic-dishonesty">Academic Dishonesty</h2>
+
+<p>All occurrences of academic dishonesty will result in a grade of 0 for the assignment or exam, and in a memo in your ICS department file describing the incident. Should there be more than one memo of this type in your file, the incident will be referred to the Dean of Students. Disciplinary sanctions range from a warning to expulsion from the university.</p>
+
+</div>
+
+
+
+
+<!-- Maybe find a different way?
+<script src="/aviation-topics/js/scrollIfAnchor.js"></script>
+-->
+
+<footer class="footer footer-background" style="padding-top: 1em; padding-bottom: 1em">
+  <div class="container text-center">
+    
+    <p>Philip Johnson | Information and Computer Sciences | University of Hawaii <br />
+johnson@hawaii.edu<br /></p>
+
+
+    
+    <p style="margin: 0">Powered by the <a class="footer-link" href="http://morea-framework.github.io/">Morea Framework</a> (Theme: spacelab)<br>
+      Last update on: <span>2022-06-08 02:45:12 -1000</span></p>
+
+    <p style="margin: 0">
+      
+      1 prerequisites |
+      
+      4 modules
+      
+      | 4 outcomes
+      
+      
+      | 20 readings
+      
+      
+      | 16 experiences
+      
+      
+      | 3 assessments
+      
+    </p>
+  </div>
+</footer>
+
+
+<!-- Load Bootstrap JavaScript components -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+
+</body>
+</html>
